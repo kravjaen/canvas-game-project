@@ -1,0 +1,84 @@
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#red {
+ background: red;
+ background-image: url();
+ background-repeat: cover; 
+ padding: 20px;
+ width: 5%; 
+ margin-top: 20%; 
+ margin-bottom: 20%;
+ margin-left: 5%; 
+ margin-right: 5%; 
+ animation-name: none;
+}
+
+#blue {
+  background: blue;
+  background-image: url();
+  background-repeat: cover; 
+  padding: 20px;
+  width: 5%; 
+  margin-top: 20%; 
+  margin-bottom: 20%; 
+  margin-left: 5%; 
+  margin-right: 5%;
+  animation-duration: 20s;
+  animation-delay: 5s; 
+  animation-name: switch; 
+}
+
+@keyframes switch {
+  from {
+    margin-left: -25%; 
+    opacity: 30%; 
+  }
+  
+  to {
+    margin-left: 20%;
+    translate: (0px, 20px);
+  }
+  
+}
+
+#yellow {
+  background: yellow;
+  background-image: url();
+  background-repeat: cover; 
+  padding: 20px;
+  width: 5%; 
+  margin-top: 20%; 
+  margin-bottom: 20%; 
+  margin-left: 5%;
+  margin-right: 5%; 
+  animation-duration: infinite;
+  animation-delay: 5s; 
+  animation-name: move; 
+}
+
+@keyframes move{
+  from {
+    opacity: 20%; 
+    margin-right: -35%; 
+  }
+  
+  to {
+    margin-left: 20%; 
+    opacity: 55%;
+  }
+}
+
+#won {
+  display: none;
+  width: 20%;
+  height: 20%;
+}
+
+#lost {
+  display: none; 
+  width: 20%;
+  height: 20%; 
+}
