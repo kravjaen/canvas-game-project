@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Spicy+Rice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+    <div id="title">Beirut</div>
+    <div id="titletwo">Beirut</div>
+
+    <!-- Game Space -->
+    <div id="main">
+
+        <div id="ball">.</div>
+
+        <!-- <div class="extra"></div>     -->
+        <div class="cup position-1" id="first">1</div>
+        <div class="cup position-2" id="second">2</div>
+        <div class="cup position-3" id="third">3</div>
+        <!-- <div class="extra"></div>  -->
+
+    </div>
+
+    <div id="mix">Let's shuffle!🕺</div>
+
+    <!-- Hidden divs -->
+    <div id="won">Vic-to-ry! You got it champ! 🍻 </div>
+    <div id="lost">Oof you win some, you lose some!'Nother round? 😜 </div>
+
+    <!--   <div id=roundtwo> 
+        <div class="clam position-1" id="first">1</div>
+        <div class="clam position-2" id="second">2</div>
+        <div class="clam position-3" id="third">3</div>
+    </div> -->
+
+
+    <audio>
+        <source src="water.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!--  Buttons -->
+    <div id="buttonboo">
+        <!--  <div id="tmp">!</div>   -->
+        <button id="turtle">🐢</button>
+        <button id="hare">🐇</button>
+    </div>
+
+
+    <canvas id="canvas" id="won" width="1425" height="100"> </canvas>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
