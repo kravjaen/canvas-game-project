@@ -1,5 +1,7 @@
-// Why here, and not on VS?
-// Weird CSS Behavior to fix: 1) Ball is being really strange, and it's ugly...do different timing instead 2) Keyframes are janky, get coordinates with event click so they land at the same spot and add that animation smoother property you read. 3) Maybe place images inside of divs, rather than making them background images? Play with size. 3) Consolidate more, and put into cup class.
+
+// Weird CSS Behavior to fix: 1) Ball is being really strange, and it's ugly...do different timing instead
+// 2) Keyframes are janky, get coordinates with event click so they land at the same spot and 
+// add that animation smoother property you read. 3) Maybe place images inside of divs, rather than making them background images? Play with size. 3) Consolidate more, and put into cup class.
 
 //opacity not working, also invert the cups...
 //Ball, use icon, <i class="fas fa-bullseye"></i>
@@ -11,7 +13,7 @@
 // 2) Grab the element with DOM first.documentQuerySelector 
 // 3) Access the element.style.animation-duration = randTime1
 // with .animation = "...time method here" or .animation-duration = "";
-// or also set new attribute and create through there? 
+// Also set new attribute and create through there. 
 
 // console.log(rightContainer)
 
